@@ -1,2 +1,3 @@
-# example_jenkins_continuous_delivery
-Example of continuous delivery using jenkins
+
+# EXAMPLE_JENKINS_CONTINUOUS_DELIVERY
+
