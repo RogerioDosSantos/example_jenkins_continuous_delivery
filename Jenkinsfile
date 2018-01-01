@@ -4,8 +4,8 @@ node {
 			stage('Build'){
 				sh 'whoami'
 				sh 'ls ./build/ -al'
-				sh 'cmake --version'
-				sh 'bash -c ./build/compile_linux_default.sh'
+				sh 'chmod +x ./build/compile_linux_default.sh'
+				sh './build/compile_linux_default.sh'
 			}
 		}
 	}
