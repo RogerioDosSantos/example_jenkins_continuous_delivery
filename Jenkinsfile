@@ -5,7 +5,9 @@ pipeline {
   stages {
     stage ('Build'){
       steps{
-        sh 'ls'
+        sh 'pwd'
+        sh 'ls -al'
+        sh './build/compile_linux_default.sh'
       }
     }
   }
