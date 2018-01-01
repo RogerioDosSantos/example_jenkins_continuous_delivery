@@ -1,0 +1,5 @@
+**/stage
+**/build/** 
+!**/build/*.sh
+!**/build/*.bat
+!**/build/*.cmake
