@@ -3,3 +3,4 @@
 !**/build/*.sh
 !**/build/*.bat
 !**/build/*.cmake
+!**/build/DockerFile
