@@ -1,13 +1,9 @@
-pipeline {
-  agent {
-    docker { image 'rogersantos/builder' }
-  }
-  stages {
-    stage ('Build'){
-      steps{
-        sh 'pwd'
+node('test-agent') {
+    stage "Container Prep"
+    docker.image('rogersantos/builder').inside {
+        stage 'Build'
+        sh "pwd"
         sh 'ls -al'
-      }
     }
-  }
 }
+
