@@ -7,7 +7,6 @@ pipeline {
       steps{
         sh 'pwd'
         sh 'ls -al'
-        sh './build/compile_linux_default.sh'
       }
     }
   }
