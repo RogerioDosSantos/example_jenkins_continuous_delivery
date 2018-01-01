@@ -5,7 +5,7 @@ node {
 				sh 'whoami'
 				sh 'ls ./build/ -al'
 				sh 'cmake --version'
-				sh './build/compile_linux_default.sh'
+				sh 'bash -c ./build/compile_linux_default.sh'
 			}
 		}
 	}
